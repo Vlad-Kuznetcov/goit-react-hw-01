@@ -1,0 +1,20 @@
+.transactionHistory {
+  border-collapse: collapse;
+  width: 500px;
+  text-align: center;
+}
+
+.transactionHistory thead {
+  background-color: rgb(87, 87, 87);
+  color: white;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.transactionHistory tr:nth-child(even) {
+  background-color: rgb(197, 197, 197);
+}
